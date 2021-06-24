@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -36,4 +36,8 @@
   100% {
     transform: translateY(0px);
   }
+}
+
+.container {
+  display: flex;
 }
