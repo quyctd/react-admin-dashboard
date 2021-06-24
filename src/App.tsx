@@ -1,7 +1,7 @@
 import React from "react"
 import Topbar from "./app/components/Topbar"
 import Sidebar from "./app/components/Sidebar"
-import Homepage from "./app/pages/home"
+import Homepage from "./app/pages/Home"
 import "./App.css"
 
 function App() {
