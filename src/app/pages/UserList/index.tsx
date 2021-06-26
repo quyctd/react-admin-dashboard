@@ -61,7 +61,14 @@ export default function UserList() {
 
   return (
     <div className="userList">
-      <div style={{ height: "100%", width: "100%" }}>
+      <h1>List Users</h1>
+      <div
+        style={{
+          height: "80%",
+          width: "100%",
+          marginTop: "20px",
+        }}
+      >
         <DataGrid
           rows={data}
           columns={columns}

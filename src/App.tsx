@@ -4,6 +4,7 @@ import Sidebar from "./app/components/Sidebar"
 import Homepage from "./app/pages/Homepage"
 import UserList from "./app/pages/UserList"
 import User from "./app/pages/User"
+import NewUser from "./app/pages/NewUser"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import "./App.css"
@@ -21,7 +22,10 @@ function App() {
           <Route exact path="/users">
             <UserList />
           </Route>
-          <Route path="/user/:userId">
+          <Route exact path="/user/new">
+            <NewUser />
+          </Route>
+          <Route exact path="/user/:userId">
             <User />
           </Route>
         </Switch>
