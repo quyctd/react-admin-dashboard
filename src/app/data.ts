@@ -105,3 +105,54 @@ export const userRowsData = [
     transaction: "$120.00",
   },
 ]
+
+export const productRowsData = [
+  {
+    id: 1,
+    name: "Apple Airpods",
+    img: "https://images.unsplash.com/photo-1624258919367-5dc28f5dc293?auto=format&fit=crop&w=800&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 2,
+    name: "Apple Airpods",
+    img: "https://images.unsplash.com/photo-1624258919367-5dc28f5dc293?auto=format&fit=crop&w=800&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 3,
+    name: "Apple Airpods",
+    img: "https://images.unsplash.com/photo-1624258919367-5dc28f5dc293?auto=format&fit=crop&w=800&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 4,
+    name: "Apple Airpods",
+    img: "https://images.unsplash.com/photo-1624258919367-5dc28f5dc293?auto=format&fit=crop&w=800&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 5,
+    name: "Apple Airpods",
+    img: "https://images.unsplash.com/photo-1624258919367-5dc28f5dc293?auto=format&fit=crop&w=800&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+  {
+    id: 6,
+    name: "Apple Airpods",
+    img: "https://images.unsplash.com/photo-1624258919367-5dc28f5dc293?auto=format&fit=crop&w=800&q=80",
+    stock: 123,
+    status: "active",
+    price: "$120.00",
+  },
+]
