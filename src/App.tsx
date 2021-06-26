@@ -3,6 +3,7 @@ import Topbar from "./app/components/Topbar"
 import Sidebar from "./app/components/Sidebar"
 import Homepage from "./app/pages/Homepage"
 import UserList from "./app/pages/UserList"
+import User from "./app/pages/User"
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom"
 
 import "./App.css"
@@ -17,8 +18,11 @@ function App() {
           <Route exact path="/">
             <Homepage />
           </Route>
-          <Route path="/users">
+          <Route exact path="/users">
             <UserList />
+          </Route>
+          <Route path="/user/:userId">
+            <User />
           </Route>
         </Switch>
       </div>
