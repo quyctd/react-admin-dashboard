@@ -48,3 +48,60 @@ export const userData = [
     activeUser: 4500,
   },
 ]
+
+export const userRowsData = [
+  {
+    id: 1,
+    username: "Jon Snow",
+    avatar:
+      "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?auto=format&fit=crop&w=300&q=80",
+    email: "john@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 2,
+    username: "Jon Snow",
+    avatar:
+      "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?auto=format&fit=crop&w=300&q=80",
+    email: "john@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 3,
+    username: "Jon Snow",
+    avatar:
+      "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?auto=format&fit=crop&w=300&q=80",
+    email: "john@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 4,
+    username: "Jon Snow",
+    avatar:
+      "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?auto=format&fit=crop&w=300&q=80",
+    email: "john@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 5,
+    username: "Jon Snow",
+    avatar:
+      "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?auto=format&fit=crop&w=300&q=80",
+    email: "john@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+  {
+    id: 6,
+    username: "Jon Snow",
+    avatar:
+      "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?auto=format&fit=crop&w=300&q=80",
+    email: "john@gmail.com",
+    status: "active",
+    transaction: "$120.00",
+  },
+]
